@@ -569,6 +569,17 @@ a:hover {
 
 /* footer  */
 
+footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+footer > div {
+  display: flex;
+  justify-content: flex-start;
+  grid-gap: 70px;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   display: block;
