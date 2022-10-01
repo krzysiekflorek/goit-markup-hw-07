@@ -861,6 +861,8 @@ footer > div {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   margin: auto;
+  padding-top: 40px;
+  padding-left: 40px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden .modal {
@@ -893,7 +895,6 @@ footer > div {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-top: 40px;
 }
 .label-modal {
   display: block;
@@ -903,7 +904,6 @@ footer > div {
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: #757575;
-  margin-left: 40px;
   fill: #2196f3;
 }
 .input-modal {
