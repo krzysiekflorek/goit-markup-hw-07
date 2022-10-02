@@ -223,7 +223,7 @@ a:hover {
     ),
     url("../images/background-image.jpg");
 }
-.section__text {
+.section__title {
   color: #fff;
   font-weight: 900;
   font-size: 44px;
