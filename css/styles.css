@@ -93,7 +93,7 @@ a:hover {
   list-style: none;
   color: #000000;
 }
-.navigation__current-buton {
+.navigation__current-button {
   display: flex;
   text-decoration: none;
   list-style: none;
