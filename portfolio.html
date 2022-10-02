@@ -21,44 +21,43 @@
     <title>WebStudio-Portfolio</title>
   </head>
   <body>
-    <header class="border-header">
-      <div class="container menu-flex-container">
-        <a href="./index.html" class="header-logo link-no-underline"
-          ><span class="blue-text">Web</span
-          ><span class="black-text">Studio</span>
-        </a>
-        <nav class="header-list">
-          <ul class="nav-list link-no-underline">
-            <li>
-              <a
-                class="header-list-item-link text black-text link-no-underline"
-                href="./index.html"
-                >Agencja</a
-              >
-            </li>
-            <li>
-              <a
-                class="header-list-item-link blue-text link-no-underline current-link-portfolio"
-                href="./portfolio.html"
-                >Portfolio</a
-              >
-            </li>
-            <li>
-              <a
-                class="header-list-item-link black-text link-no-underline"
-                href="./contact.html"
-                >Kontakt</a
-              >
-            </li>
-          </ul>
-        </nav>
-        <ul class="navigation-list header-list">
-          <li class="icons-contact">
+    <header class="container menu-flex-container">
+      <a href="./index.html" class="header-logo"
+        ><span class="blue-text">Web</span
+        ><span class="black-text">Studio</span>
+      </a>
+      <nav class="header-list">
+        <ul class="nav-list">
+          <li>
             <a
-              class="contact-link-style link-no-underline"
-              href="mailto:info@devstudio.com"
+              href="./index.html"
+              class="header-list-item-blue current-link"
+              >Agencja</a
             >
-              <svg class="header-icon links icon contacts-icon">
+          </li>
+          <li>
+            <a
+              class="header-list-item-portfolio"
+              href="./portfolio.html"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a
+              class="header-list-item-link"
+              href="./contact.html"
+              >Kontakt</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <ul class="navigation-list">
+        <li>
+          <a
+            class="contact-link-style"
+            href="mailto:info@devstudio.com"
+          >
+              <svg class="header-icon links icon">
                 <use
                   href="images/icons.svg#icon-envelope"
                   width="16"
@@ -68,24 +67,23 @@
               info@devstudio.com</a
             >
           </li>
-          <li class="icons-contact">
-            <a
-              class="contact-link-style link-no-underline"
-              href="tel:+48111111111"
-            >
-              <svg class="links icon contacts-icon">
-                <use
-                  href="images/icons.svg#icon-smartphone"
-                  width="16"
-                  height="16"
-                ></use>
-              </svg>
-              +48 111 111 111</a
-            >
-          </li>
-        </ul>
-      </div>
-    </header>
+        <li>
+          <a
+            class="contact-link-style"
+            href="tel:+48111111111"
+          >
+            <svg class="contacts-icon icon links">
+              <use
+                href="images/icons.svg#icon-smartphone"
+                width="16"
+                height="16"
+              ></use>
+            </svg>
+            +48 111 111 111</a
+          >
+        </li>
+      </ul>
+  </header>
     <section class="section-portfolio">
       <div class="container">
         <ul class="text header-list button-style">
