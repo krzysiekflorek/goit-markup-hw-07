@@ -233,7 +233,7 @@ a:hover {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-.team {
+.section__modal-button {
   font-family: "Roboto";
   letter-spacing: 0.06em;
   color: #fff;
@@ -373,12 +373,12 @@ a:hover {
 .background-section {
   background: #f5f4fa;
 }
-.section-bottom {
+.team {
   padding-top: 94px;
   padding-bottom: 94px;
   background: #f5f4fa;
 }
-.section-bottom h2 {
+.team h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -387,13 +387,13 @@ a:hover {
   margin-bottom: 50px;
   color: #212121;
 }
-.section-bottom ul {
+.team ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
   object-fit: contain;
 }
-.section-bottom figure {
+.team figure {
   background: #fff;
   box-shadow: 0px 1px 3px #0000001f, 0px 1px 1px #00000024,
     0px 2px 1px #00000033;
@@ -401,10 +401,10 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
-.section-bottom figcaption {
+.team figcaption {
   padding: 30px 32px;
 }
-.section-bottom h4 {
+.team h4 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -412,14 +412,14 @@ a:hover {
   letter-spacing: 0.03em;
   margin-bottom: 10px;
 }
-.section-bottom p {
+.team p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
-.social-links {
+.team__social-links {
   display: flex;
   justify-content: space-between;
   margin-top: 16px;
