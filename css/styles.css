@@ -252,6 +252,8 @@ a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   gap: 30px;
+  list-style: none;
+  text-decoration: none;
 }
 .icons-box {
   width: 270px;
@@ -271,6 +273,8 @@ a:hover {
   gap: 30px;
   margin: 0 auto;
   padding: 0;
+  list-style: none;
+  text-decoration: none;
 }
 .text-header {
   color: #212121;
