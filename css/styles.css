@@ -438,11 +438,11 @@ a:hover {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.studio-section {
+.customers {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.studio-section h2 {
+.customers h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
@@ -451,38 +451,38 @@ a:hover {
   margin-bottom: 50px;
   color: #212121;
 }
-.studio-section ul {
+.customers ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   list-style: none;
 }
-.studio-section {
+.customers {
   border-color: #757575;
 }
-.studio-section a {
+.customers a {
   display: block;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   padding: 17.71px 32px 14.25px;
 }
-.studio-section li:not(:last-child) {
+.customers li:not(:last-child) {
   margin-right: 30px;
 }
-.studio-section a:hover,
-.studio-section a:focus {
+.customers a:hover,
+.customers a:focus {
   border-color: #2196f3;
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.studio-section a:hover .studio-icon,
-.studio-section a:focus .studio-icon {
+.customers a:hover .studio-icon,
+.customers a:focus .studio-icon {
   fill: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.studio-icon {
+.customoer__icon {
   fill: #afb1b8;
   border-color: #757575;
 }
