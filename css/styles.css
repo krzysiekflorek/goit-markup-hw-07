@@ -474,12 +474,6 @@ a:hover {
   border-color: #757575;
 }
 
-.top-section-list:hover,
-.top-section-list:focus {
-  cursor: pointer;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 /*************/
 /* footer*/
 
@@ -713,10 +707,17 @@ footer > div {
 }
 .buttons-portfolio:hover,
 .buttons-portfolio:focus {
+  cursor: pointer;
   color: #fff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
     0px 2px 2px #0000001f;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.top-section-list:hover,
+.top-section-list:focus {
+  cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
