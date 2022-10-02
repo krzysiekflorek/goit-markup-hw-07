@@ -45,9 +45,6 @@ a:hover {
 .text {
   color: #212121;
 }
-.border-header {
-  border-bottom: 1px solid #ececec;
-}
 .contacts-icon {
   background-color: #fff;
   margin-right: 10px;
@@ -63,69 +60,50 @@ a:hover {
 .no-margin-bottom {
   margin-bottom: 0%;
 }
-.link-active,
-.links:hover,
-.links:focus {
-  color: #2196f3;
-}
 
 /* HEADER */
 
-/* .logo {
-  &_dark-theme {
-    color: #fff;
-  }
-  &-light-theme {
-    color: #000000;
-  } */
-
-.header {
+.border-header {
+  border-bottom: 1px solid #ececec;
+}
+.menu-flex-container {
   flex-direction: row;
   display: flex;
   align-items: center;
   padding: 25px 15px;
-  border-bottom: 1px solid #ececec;
 }
-.logo {
+.header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.174;
-  color: #000000;
+  color: #000;
   text-decoration: none;
-  list-style: none;
 }
-.logo__blue-text {
-  color: #2196f3;
-}
-.logo__blue-text:hover,
-.logo__blue-text:focus {
-  color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.navigation {
+.header-list {
   list-style: none;
   text-decoration: none;
 }
-.menu {
+.nav-list {
   display: flex;
   flex-direction: row;
   gap: 50px;
   padding-left: 93px;
 }
-.menu__link {
+.header-list-item-link {
   text-decoration: none;
   display: flex;
-  position: relative;
 }
-.menu__item:hover,
-.menu__link:focus {
+.header-list-item-link:hover,
+.header-list-item-link:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu__link--current::after {
+.current-link {
+  position: relative;
+}
+.current-link::after {
   content: "";
   position: absolute;
   width: 53px;
@@ -139,17 +117,13 @@ a:hover {
   margin-top: 45px;
   display: block;
 }
-
-.contact {
+.navigation-list {
   display: flex;
   gap: 50px;
   margin: 0 auto;
   padding: 0 0 0 320px;
-  list-style: none;
-  text-decoration: none;
-  border-bottom: 1px solid #ececec;
 }
-.contact__item {
+.contact-link-style {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -161,13 +135,13 @@ a:hover {
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
-.contact__:hover .contacts-icon,
-.contact__link-style:focus .contacts-icon {
+.contact-link-style:hover .contacts-icon,
+.contact-link-style:focus .contacts-icon {
   fill: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact__contact--icon {
+.header-icon {
   background-color: #fff;
   margin-right: 10px;
   margin-top: 3px;
@@ -177,12 +151,13 @@ a:hover {
   list-style: none;
   text-decoration: none;
 }
-.contact__link {
+.links {
   text-decoration: none;
   font-size: 14px;
 }
-.contact__link:hover,
-.contact__links:focus {
+.link-active,
+.links:hover,
+.links:focus {
   color: #2196f3;
 }
 
