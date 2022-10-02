@@ -476,13 +476,13 @@ a:hover {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers a:hover .studio-icon,
-.customers a:focus .studio-icon {
+.customers a:hover .customer__icon,
+.customers a:focus .customer__icon {
   fill: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customer__icon {
+.customers__icon {
   fill: #afb1b8;
   border-color: #757575;
 }
