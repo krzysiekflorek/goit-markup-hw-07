@@ -125,9 +125,6 @@ a:hover {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu__link--current: {
-  position: relative;
-}
 .menu__link--current::after {
   content: "";
   position: absolute;
