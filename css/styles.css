@@ -26,10 +26,7 @@ a:hover {
 .block {
   display: block;
 }
-.link-no-underline {
-  text-decoration: none;
-  list-style: none;
-}
+
 .blue-text {
   color: #2196f3;
 }
@@ -45,15 +42,7 @@ a:hover {
 .text {
   color: #212121;
 }
-.contacts-icon {
-  background-color: #fff;
-  margin-right: 10px;
-  width: 16px;
-  height: 16px;
-  fill: #757575;
-  list-style: none;
-  text-decoration: none;
-}
+
 .w-text {
   color: #fff;
 }
@@ -64,6 +53,10 @@ a:hover {
 .header-list {
   list-style: none;
   text-decoration: none;
+}
+.link-no-underline {
+  text-decoration: none;
+  list-style: none;
 }
 
 /* HEADER */
@@ -149,6 +142,7 @@ a:hover {
   align-items: center;
   justify-content: space-between;
   text-decoration: none;
+  list-style: none;
   font-weight: 500;
   font-size: 14px;
   color: #757575;
@@ -172,6 +166,16 @@ a:hover {
   list-style: none;
   text-decoration: none;
 }
+.contacts-icon {
+  background-color: #fff;
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
+  fill: #757575;
+  list-style: none;
+  text-decoration: none;
+}
+
 .links {
   text-decoration: none;
   font-size: 14px;
