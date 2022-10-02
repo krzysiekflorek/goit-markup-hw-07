@@ -441,6 +441,7 @@ a:hover {
 .customers {
   padding-top: 94px;
   padding-bottom: 94px;
+  border-color: #757575;
 }
 .customers h2 {
   font-weight: 700;
@@ -456,9 +457,6 @@ a:hover {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-}
-.customers {
-  border-color: #757575;
 }
 .customers a {
   display: block;
