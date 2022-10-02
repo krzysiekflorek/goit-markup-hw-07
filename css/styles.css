@@ -162,13 +162,13 @@ a:hover {
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
-.contact__link-header:hover .contacts-icon,
-.contact__link-header:focus .contacts-icon {
+.contact__link-header:hover .contact__link--icons,
+.contact__link-header:focus .contact__link--icon {
   fill: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contact__link-header--header-icon {
+.contact__link--header-icon {
   background-color: #fff;
   margin-right: 10px;
   margin-top: 3px;
@@ -192,13 +192,11 @@ a:hover {
   text-decoration: none;
   font-size: 14px;
 }
-.link-active,
+.contact__link-active,
 .contact__links:hover,
 .contact__links:focus {
   color: #2196f3;
 }
-
-/*********************/
 
 /* html - section */
 
@@ -489,7 +487,6 @@ a:hover {
   border-color: #757575;
 }
 
-/*************/
 /* footer*/
 
 footer {
