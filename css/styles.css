@@ -61,6 +61,11 @@ a:hover {
   margin-bottom: 0%;
 }
 
+.header-list {
+  list-style: none;
+  text-decoration: none;
+}
+
 /* HEADER */
 
 .menu-flex-container {
@@ -79,10 +84,7 @@ a:hover {
   text-decoration: none;
   list-style: none;
 }
-.header-list {
-  list-style: none;
-  text-decoration: none;
-}
+
 .nav-list {
   display: flex;
   flex-direction: row;
@@ -138,7 +140,10 @@ a:hover {
   gap: 50px;
   margin: 0 auto;
   padding: 0 0 0 320px;
+  list-style: none;
+  text-decoration: none;
 }
+
 .contact-link-style {
   display: flex;
   align-items: center;
