@@ -795,6 +795,8 @@ footer > div {
   border-bottom: 1px solid #eeeeee;
 }
 .description-category {
+  text-decoration: none;
+  list-style: none;
   padding: 20px 24px;
 }
 .description-category > p {
