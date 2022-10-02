@@ -52,14 +52,9 @@ a:hover {
   margin-bottom: 0%;
 }
 
-.header-list {
-  list-style: none;
-  text-decoration: none;
-}
-
 /* HEADER */
 
-.menu-flex-container {
+.header {
   flex-direction: row;
   display: flex;
   align-items: center;
@@ -70,7 +65,7 @@ a:hover {
   margin: 0 auto;
   border-bottom: 1px solid #ececec;
 }
-.header-logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -78,6 +73,10 @@ a:hover {
   color: #000;
   text-decoration: none;
   list-style: none;
+}
+.header-list {
+  list-style: none;
+  text-decoration: none;
 }
 
 .nav-list {
