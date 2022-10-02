@@ -513,11 +513,20 @@ footer > div {
 .footer-logo > span {
   color: #2196f3;
 }
-.footer-address {
+.footer__blue-text {
+  color: #2196f3;
+}
+.footer__blue-text:hover,
+.footer__blue-text:focus {
+  color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer__address {
   display: block;
   font-style: normal;
 }
-.footer-address > span {
+.footer__address > span {
   display: block;
   font-style: normal;
   font-size: 14px;
@@ -527,7 +536,7 @@ footer > div {
   text-decoration: none;
   margin-bottom: 9px;
 }
-.footer-address-mail {
+.footer__address-mail {
   display: block;
   text-decoration: none;
   color: #ffffff99;
@@ -537,7 +546,7 @@ footer > div {
   text-decoration-line: underline;
   margin-bottom: 9px;
 }
-.footer-address-tel {
+.footer__address-tel {
   display: block;
   text-decoration: none;
   color: #ffffff99;
@@ -545,14 +554,14 @@ footer > div {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.footer-address-mail:hover,
-.footer-address-mail:focus {
+.footer__address-mail:hover,
+.footer__address-mail:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-address-tel:hover,
-.footer-address-tel:focus {
+.footer__address-tel:hover,
+.footer__address-tel:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -570,27 +579,27 @@ footer > div {
   color: #fff;
   margin-bottom: 20px;
 }
-.footer-social-links {
+.footer__social-links {
   display: flex;
   grid-gap: 10px;
   list-style: none;
 }
-.footer-social-links li {
+.footer__social-links li {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   background-color: #ffffff1a;
 }
-.footer-social-links svg {
+.footer__social-links svg {
   fill: #fff;
 }
-.footer-social-links li:hover,
-.footer-social-links li:focus {
+.footer__social-links li:hover,
+.footer__social-links li:focus {
   background-color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-icon {
+.footer__social-icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -603,8 +612,8 @@ footer > div {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-icon:hover,
-.footer-icon:focus {
+.footer-social-icon:hover,
+.footer-social-icon:focus {
   background-color: #2196f3;
 }
 .icon-footer {
