@@ -78,7 +78,15 @@ a:hover {
   list-style: none;
   text-decoration: none;
 }
-
+.logo__blue-text {
+  color: #2196f3;
+}
+.logo__blue-text:hover,
+.logo__blue-text:focus {
+  color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 .navigation {
   display: flex;
   flex-direction: row;
