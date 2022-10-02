@@ -77,6 +77,7 @@ a:hover {
   line-height: 1.174;
   color: #000;
   text-decoration: none;
+  list-style: none;
 }
 .header-list {
   list-style: none;
@@ -85,12 +86,16 @@ a:hover {
 .nav-list {
   display: flex;
   flex-direction: row;
+  text-decoration: none;
+  list-style: none;
   gap: 50px;
   padding-left: 93px;
 }
 .header-list-item-link {
-  text-decoration: none;
   display: flex;
+  text-decoration: none;
+  list-style: none;
+  color: #000000;
 }
 .header-list-item-link:hover,
 .header-list-item-link:focus {
