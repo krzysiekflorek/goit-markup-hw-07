@@ -622,6 +622,8 @@ footer > div {
 .footer-list-newsletter {
   display: flex;
   gap: 12px;
+  list-style: none;
+  text-decoration: none;
 }
 .newsletter-input {
   color: #ffffff99;
