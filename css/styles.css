@@ -276,19 +276,18 @@ a:hover {
   list-style: none;
   text-decoration: none;
 }
-.text-header {
-  color: #212121;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.143;
-}
 .heading-lorem {
   font-weight: 700;
   line-height: 1.143;
   margin: 0;
   padding-bottom: 10px;
   padding-top: 10px;
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
 }
+
 .text-paragraph {
   font-size: 14px;
   line-height: 1.72;
