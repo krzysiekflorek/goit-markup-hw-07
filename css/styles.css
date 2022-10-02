@@ -617,10 +617,10 @@ footer > div {
 
 /* footer - newsletter */
 
-.container-newsletter {
+.newsletter {
   margin-left: 78px;
 }
-.newsletter-description {
+.newsletter__description {
   color: #ffffff;
   font-weight: 700;
   font-size: 14px;
@@ -628,13 +628,13 @@ footer > div {
   letter-spacing: 0.03em;
   margin-bottom: 20px;
 }
-.footer-list-newsletter {
+.newsletter__footer-list {
   display: flex;
   gap: 12px;
   list-style: none;
   text-decoration: none;
 }
-.newsletter-input {
+.newsletter__input {
   color: #ffffff99;
   background-color: #2f303a;
   width: 358px;
@@ -651,13 +651,13 @@ footer > div {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border;
 }
-.newsletter-input:hover,
-.newsletter-input:focus {
+.newsletter__input:hover,
+.newsletter__input:focus {
   border: 1px solid #2196f3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
 }
-.button-active-newsletter {
+.newsletter__button-active {
   font-family: "Roboto";
   background-color: #2196f3;
   color: #ffffff;
@@ -679,12 +679,11 @@ footer > div {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-footer-send {
+.newsletter__icon-send {
   fill: #ffffff;
   margin-left: 24px;
 }
 
-/****************/
 /* section - portfolio */
 
 .section-portfolio {
