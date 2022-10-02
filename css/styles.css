@@ -200,7 +200,7 @@ a:hover {
 
 /* html - section */
 
-.top-section-flex {
+.section__flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -209,7 +209,7 @@ a:hover {
   gap: 30px;
   padding: 106px 0;
 }
-.background-image {
+.section__background-image {
   margin: 0 auto;
   background-repeat: no-repeat;
   background-position: center;
@@ -223,7 +223,7 @@ a:hover {
     ),
     url("../images/background-image.jpg");
 }
-.top-section-text {
+.section__text {
   color: #fff;
   font-weight: 900;
   font-size: 44px;
@@ -233,7 +233,7 @@ a:hover {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-.top-section button {
+.section button {
   font-family: "Roboto";
   letter-spacing: 0.06em;
   color: #fff;
@@ -251,8 +251,8 @@ a:hover {
   cursor: pointer;
   margin: 0 auto;
 }
-.top-section-button :hover,
-.top-section-button:focus {
+.section__modal-button :hover,
+.section__modal-button:focus {
   background-color: #f5f4fa;
   box-shadow: 0px 3px 1px #2196f31a, 0px 1px 2px #2196f314,
     0px 2px 2px #2196f31f;
@@ -260,7 +260,7 @@ a:hover {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-flex-wrap {
+.icons-box {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -268,7 +268,7 @@ a:hover {
   list-style: none;
   text-decoration: none;
 }
-.icons-box {
+.icon-box__vector {
   width: 270px;
   height: 120px;
   background: #f5f4fa;
@@ -279,7 +279,7 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-.lorem-list {
+.lorem {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -289,7 +289,7 @@ a:hover {
   list-style: none;
   text-decoration: none;
 }
-.heading-lorem {
+.lorem__heading {
   font-weight: 700;
   line-height: 1.143;
   margin: 0;
@@ -300,16 +300,16 @@ a:hover {
   font-size: 14px;
   line-height: 1.143;
 }
-.text-paragraph {
+.lorem__text {
   font-size: 14px;
   line-height: 1.72;
   margin: 0;
 }
-.section-activity {
+.activity {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.section-activity h2 {
+.activity h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -319,19 +319,19 @@ a:hover {
   margin-bottom: 60px;
   color: #212121;
 }
-.section-activity ul {
+.activity ul {
   display: flex;
   justify-content: space-between;
   list-style: none;
   gap: 30px;
 }
-.section-activity li {
+.activity li {
   position: relative;
 }
-.section-activity img {
+.activity img {
   display: block;
 }
-.section-activity p {
+.activity p {
   display: block;
   position: absolute;
   bottom: 0;
@@ -347,10 +347,10 @@ a:hover {
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
 }
-.text-label {
+.activity__caption {
   position: relative;
 }
-.img-label {
+.activity__picture {
   display: block;
   font-size: 14px;
   left: 0;
