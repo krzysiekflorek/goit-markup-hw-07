@@ -79,7 +79,7 @@ a:hover {
   text-decoration: none;
 }
 
-.nav-list {
+.navigation {
   display: flex;
   flex-direction: row;
   text-decoration: none;
@@ -87,19 +87,19 @@ a:hover {
   gap: 50px;
   padding-left: 93px;
 }
-.header-list-item-link {
+.navigation__button {
   display: flex;
   text-decoration: none;
   list-style: none;
   color: #000000;
 }
-.header-list-item-blue {
+.navigation__current-buton {
   display: flex;
   text-decoration: none;
   list-style: none;
   color: #2196f3;
 }
-.header-list-item-portfolio {
+.navigation__portfolio-button {
   display: flex;
   text-decoration: none;
   list-style: none;
