@@ -97,6 +97,19 @@ a:hover {
   list-style: none;
   color: #000000;
 }
+.header-list-item-blue {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  color: #2196f3;
+}
+.header-list-item-portfolio {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  color: #2196f3;
+}
+
 .header-list-item-link:hover,
 .header-list-item-link:focus {
   color: #2196f3;
