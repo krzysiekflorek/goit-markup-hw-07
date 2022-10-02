@@ -140,7 +140,7 @@ a:hover {
   margin-top: 45px;
   display: block;
 }
-.navigation-list {
+.contact {
   display: flex;
   gap: 50px;
   margin: 0 auto;
@@ -149,7 +149,7 @@ a:hover {
   text-decoration: none;
 }
 
-.contact-link-style {
+.contact__link-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -162,13 +162,13 @@ a:hover {
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
-.contact-link-style:hover .contacts-icon,
-.contact-link-style:focus .contacts-icon {
+.contact__link-header:hover .contacts-icon,
+.contact__link-header:focus .contacts-icon {
   fill: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-icon {
+.contact__link-header--header-icon {
   background-color: #fff;
   margin-right: 10px;
   margin-top: 3px;
@@ -178,7 +178,7 @@ a:hover {
   list-style: none;
   text-decoration: none;
 }
-.contacts-icon {
+.contact__link--icons {
   background-color: #fff;
   margin-right: 10px;
   width: 16px;
@@ -188,13 +188,13 @@ a:hover {
   text-decoration: none;
 }
 
-.links {
+.contact__link--links {
   text-decoration: none;
   font-size: 14px;
 }
 .link-active,
-.links:hover,
-.links:focus {
+.contact__links:hover,
+.contact__links:focus {
   color: #2196f3;
 }
 
