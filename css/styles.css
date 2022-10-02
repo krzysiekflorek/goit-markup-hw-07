@@ -727,10 +727,6 @@ footer > div {
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
-.project-box {
-  padding: 0;
-  margin: 0;
-}
 .project-name {
   color: #212121;
   font-weight: 700;
