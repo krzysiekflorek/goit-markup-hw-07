@@ -63,14 +63,12 @@ a:hover {
 
 /* HEADER */
 
-.border-header {
-  border-bottom: 1px solid #ececec;
-}
 .menu-flex-container {
   flex-direction: row;
   display: flex;
   align-items: center;
   padding: 25px 15px;
+  border-bottom: 1px solid #ececec;
 }
 .header-logo {
   font-family: "Raleway", sans-serif;
