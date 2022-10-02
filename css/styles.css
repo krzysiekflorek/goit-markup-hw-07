@@ -476,8 +476,8 @@ a:hover {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.customers a:hover .customer__icon,
-.customers a:focus .customer__icon {
+.customers a:hover .customers__icon,
+.customers a:focus .customers__icon {
   fill: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
