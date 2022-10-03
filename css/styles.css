@@ -726,7 +726,7 @@ footer > div {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-elements {
+.portfolio__elements {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -819,7 +819,7 @@ footer > div {
 .description-category > p {
   margin: 0;
 }
-.top-section-portfolio {
+.portfolio {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1067,3 +1067,4 @@ footer > div {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
