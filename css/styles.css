@@ -767,7 +767,7 @@ footer > div {
   justify-content: left;
   text-align: left;
 }
-.hidden-element-container {
+.portfolio__hidden-elements {
   display: flex;
   width: 100%;
   justify-content: center;
