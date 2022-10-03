@@ -746,7 +746,7 @@ footer > div {
   list-style: none;
   text-decoration: none;
 }
-.project-box {
+.portfolio__projects {
   padding: 0;
   margin: 0;
 }
@@ -832,7 +832,7 @@ footer > div {
   gap: 30px;
   padding-bottom: 94px;
 }
-.project-box {
+.portfolio__projects {
   padding: 0;
   margin: 0;
   width: 370px;
@@ -840,13 +840,13 @@ footer > div {
   margin: 0;
   transition: 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project-box-cursor:hover,
-.project-box-cursor:focus {
+.portfolio__projects:hover,
+.portfolio__projects:focus {
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project-box:hover .portfolio-label {
+.portfolio__projects:hover .portfolio-label {
   transform: translateY(0);
 }
 .current-link-portfolio {
