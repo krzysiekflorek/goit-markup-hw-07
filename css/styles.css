@@ -809,7 +809,7 @@ footer > div {
   transition-property: transform;
   transition-duration: 250ms;
 }
-.portfolio-projects-describe {
+.portfolio__projects-describe {
   border: #eeeeee;
   flex-basis: calc((100% - 60px) / 3);
   display: flex;
