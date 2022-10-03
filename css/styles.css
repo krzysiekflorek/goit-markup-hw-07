@@ -784,7 +784,7 @@ footer > div {
   justify-content: center;
   align-items: center;
 }
-.hidden-background {
+.portfolio__hidden-background {
   position: absolute;
   background: rgba(33, 150, 243, 0.9);
   width: 100%;
@@ -794,7 +794,7 @@ footer > div {
   transform: translateY(300px);
   transition: transform 250ms linear;
 }
-.hidden-text {
+.portfolio__hidden-text {
   justify-content: left;
   text-align: left;
   align-items: center;
