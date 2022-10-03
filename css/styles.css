@@ -701,7 +701,7 @@ footer > div {
   list-style: none;
   text-decoration: none;
 }
-.buttons-portfolio {
+.section-portfolio__buttons {
   font-family: "Roboto";
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -719,8 +719,8 @@ footer > div {
   list-style: none;
   gap: 8px;
 }
-.buttons-portfolio:hover,
-.buttons-portfolio:focus {
+.section-portfolio__buttons:hover,
+.section-portfolio__buttons:focus {
   cursor: pointer;
   color: #fff;
   background-color: #2196f3;
@@ -838,19 +838,19 @@ footer > div {
   margin: 0;
   transition: 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project-box-cursor:hover,
-.project-box-cursor:focus {
+.portfolio__project-box:hover,
+.portfolio__project-box:focus {
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project-box:hover .portfolio-label {
+.portfolio__project-box:hover .portfolio-label {
   transform: translateY(0);
 }
-.current-link-portfolio {
+.navigation__current-link-portfolio {
   position: relative;
 }
-.current-link-portfolio::after {
+.navigation__current-link-portfolio::after {
   content: "";
   position: absolute;
   width: 58px;
@@ -865,7 +865,6 @@ footer > div {
   display: block;
 }
 
-/****************/
 /* modal window */
 
 .backdrop {
