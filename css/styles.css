@@ -686,7 +686,7 @@ footer > div {
 
 /* section - portfolio */
 
-.portfolio {
+.section-portfolio {
   padding-top: 94px;
   padding-right: 94px;
   padding-bottom: 50px;
@@ -698,10 +698,8 @@ footer > div {
   gap: 8px;
   justify-content: center;
   margin: 0;
-  list-style: none;
-  text-decoration: none;
 }
-.section-portfolio__buttons {
+.buttons-portfolio {
   font-family: "Roboto";
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -719,9 +717,8 @@ footer > div {
   list-style: none;
   gap: 8px;
 }
-.section-portfolio__buttons:hover,
-.section-portfolio__buttons:focus {
-  cursor: pointer;
+.buttons-portfolio:hover,
+.buttons-portfolio:focus {
   color: #fff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
@@ -729,27 +726,27 @@ footer > div {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio__elements {
+.portfolio-elements {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 0;
   gap: 30px;
 }
-.portfolio__element {
+.portfolio-element {
   position: relative;
 }
-.portfolio__element:hover,
-.portfolio__element:focus {
+.portfolio-element:hover,
+.portfolio-element:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
-.portfolio__header-list {
-  list-style: none;
-  text-decoration: none;
+.project-box {
+  padding: 0;
+  margin: 0;
 }
-.portfolio__project-name {
+.project-name {
   color: #212121;
   font-weight: 700;
   font-size: 18px;
@@ -759,14 +756,14 @@ footer > div {
   justify-content: left;
   margin: 0;
 }
-.portfolio__project-text {
+.project-text {
   color: #757575;
   font-size: 16px;
   line-height: 1.875;
   justify-content: left;
   text-align: left;
 }
-.portofolio__hidden-element {
+.hidden-element-container {
   display: flex;
   width: 100%;
   justify-content: center;
@@ -774,12 +771,12 @@ footer > div {
   position: relative;
   overflow: hidden;
 }
-.portfolio__photo {
+.portfolio-photo {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.porofolio__hidden-background {
+.hidden-background {
   position: absolute;
   background: rgba(33, 150, 243, 0.9);
   width: 100%;
@@ -789,7 +786,7 @@ footer > div {
   transform: translateY(300px);
   transition: transform 250ms linear;
 }
-.portfolio__hidden-text {
+.hidden-text {
   justify-content: left;
   text-align: left;
   align-items: center;
@@ -798,30 +795,31 @@ footer > div {
   line-height: 1.56;
   color: #fff;
 }
-.portfolio__element:hover .portfolio__hidden-background,
-.portfolio__element:focus .portfolio__hidden-background {
+.portfolio-element:hover .hidden-background,
+.portfolio-element:focus .hidden-background {
   transform: translateY(0px);
   transition-property: transform;
   transition-duration: 250ms;
 }
-.portfolio__projects-describe {
-  border-left: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+.portfolio-projects-describe {
+  border: #eeeeee;
   flex-basis: calc((100% - 60px) / 3);
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
-.portfolio__description {
-  text-decoration: none;
-  list-style: none;
+.project-border {
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+}
+.description-category {
   padding: 20px 24px;
 }
-.portfolio__description > p {
+.description-category > p {
   margin: 0;
 }
-.portfolio {
+.top-section-portfolio {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -830,7 +828,7 @@ footer > div {
   gap: 30px;
   padding-bottom: 94px;
 }
-.portfolio__project-box {
+.project-box {
   padding: 0;
   margin: 0;
   width: 370px;
@@ -838,19 +836,19 @@ footer > div {
   margin: 0;
   transition: 250ms box-shadow cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio__project-box:hover,
-.portfolio__project-box:focus {
+.project-box-cursor:hover,
+.project-box-cursor:focus {
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio__project-box:hover .portfolio-label {
+.project-box:hover .portfolio-label {
   transform: translateY(0);
 }
-.navigation__current-link-portfolio {
+.current-link-portfolio {
   position: relative;
 }
-.navigation__current-link-portfolio::after {
+.current-link-portfolio::after {
   content: "";
   position: absolute;
   width: 58px;
