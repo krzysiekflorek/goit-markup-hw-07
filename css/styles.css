@@ -1017,7 +1017,7 @@ footer > div {
   margin-bottom: 20px;
   margin-left: 15px;
 }
-.modal__checkbox {
+.checkbox {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   width: 16px;
@@ -1031,17 +1031,17 @@ footer > div {
   margin-right: 8px;
   cursor: pointer;
 }
-.modal__checkbox-hidden {
+.checkbox-hidden {
   -moz-appearance: none;
   -webkit-apperance: none;
   appearance: none;
 }
-.modal__checkbox:checked {
+.checkbox:checked {
   background-image: url(../images/checkbox.jpg);
   border: none;
   background-color: #2196f3;
 }
-.modal__button-active {
+.button-active {
   background-color: #2196f3;
   font-family: "Roboto", sans-serif;
   color: #fff;
@@ -1058,7 +1058,7 @@ footer > div {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal__form-button {
+.form-button {
   width: 200px;
   height: 50px;
   margin-left: 124px;
