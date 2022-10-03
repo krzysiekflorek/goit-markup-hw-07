@@ -534,7 +534,7 @@ footer > div {
   text-decoration: none;
   margin-bottom: 9px;
 }
-.footer__address-mail {
+.footer__address--mail {
   display: block;
   text-decoration: none;
   color: #ffffff99;
@@ -544,7 +544,7 @@ footer > div {
   text-decoration-line: underline;
   margin-bottom: 9px;
 }
-.footer__address-tel {
+.footer__address--tel {
   display: block;
   text-decoration: none;
   color: #ffffff99;
@@ -552,14 +552,14 @@ footer > div {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
-.footer__address-mail:hover,
-.footer__address-mail:focus {
+.footer__address--mail:hover,
+.footer__address--mail:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__address-tel:hover,
-.footer__address-tel:focus {
+.footer__address--tel:hover,
+.footer__address--tel:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
