@@ -973,8 +973,8 @@ footer > div {
 .modal__inputfocus {
   border: 1px solid #2196f3;
 }
-.modal__input:focus + .icon-modal,
-.modal__input:hover + .icon-modal {
+.modal__input:focus + .modal__icon,
+.modal__input:hover + .modal__icon {
   fill: #2196f3;
 }
 .modal__icon {
