@@ -699,7 +699,7 @@ footer > div {
   justify-content: center;
   margin: 0;
 }
-.buttons-portfolio {
+.section-portfolio__buttons {
   font-family: "Roboto";
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -717,8 +717,8 @@ footer > div {
   list-style: none;
   gap: 8px;
 }
-.buttons-portfolio:hover,
-.buttons-portfolio:focus {
+.section-portfolio__buttons:hover,
+.section-portfolio__buttons:focus {
   color: #fff;
   background-color: #2196f3;
   box-shadow: 0px 3px 1px #0000001a, 0px 1px 2px #00000014,
