@@ -821,10 +821,10 @@ footer > div {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
-.description-category {
+.portfolio__description {
   padding: 20px 24px;
 }
-.description-category > p {
+.portfolio__description > p {
   margin: 0;
 }
 .portfolio {
