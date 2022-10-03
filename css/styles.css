@@ -742,6 +742,10 @@ footer > div {
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
+.portfolio__header-list {
+  list-style: none;
+  text-decoration: none;
+}
 .project-box {
   padding: 0;
   margin: 0;
