@@ -693,7 +693,7 @@ footer > div {
   padding-left: 94px;
   margin: 0;
 }
-.button-style {
+.section-portfolio__button-style {
   display: flex;
   gap: 8px;
   justify-content: center;
@@ -743,6 +743,11 @@ footer > div {
   cursor: pointer;
 }
 .portfolio__header-list {
+  list-style: none;
+  text-decoration: none;
+}
+.section-portfolio__header-list {
+  text: #212121;
   list-style: none;
   text-decoration: none;
 }
