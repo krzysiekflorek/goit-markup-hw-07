@@ -816,7 +816,7 @@ footer > div {
   flex-direction: column;
   gap: 4px;
 }
-.project-border {
+.portfolio__project-border {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
