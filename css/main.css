@@ -970,6 +970,18 @@ a:hover {
   border-color: #757575;
 }
 
+footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+footer > div {
+  display: flex;
+  justify-content: flex-start;
+  grid-gap: 70px;
+}
+
 .newsletter {
   margin-left: 78px;
 }
