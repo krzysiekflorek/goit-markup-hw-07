@@ -109,7 +109,8 @@ a:hover {
 
 .portfolio__element:hover,
 .portfolio__element:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
 
@@ -144,7 +145,9 @@ a:hover {
 .section__modal-button :hover,
 .section__modal-button:focus {
   background-color: #f5f4fa;
-  box-shadow: 0px 3px 1px rgba(33, 150, 243, 0.1019607843), 0px 1px 2px rgba(33, 150, 243, 0.0784313725), 0px 2px 2px rgba(33, 150, 243, 0.1215686275);
+  box-shadow: 0px 3px 1px rgba(33, 150, 243, 0.1019607843),
+    0px 1px 2px rgba(33, 150, 243, 0.0784313725),
+    0px 2px 2px rgba(33, 150, 243, 0.1215686275);
   color: #212121;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -563,7 +566,8 @@ a:hover {
   width: 100%;
   height: 100%;
   opacity: 100%;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .is-hidden {
@@ -579,7 +583,8 @@ a:hover {
   width: 528px;
   height: 581px;
   background-color: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   margin: auto;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -789,7 +794,12 @@ a:hover {
   max-width: 1600px;
   height: 600px;
   background-size: cover;
-  background-image: linear-gradient(0deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url("../images/background-image.jpg");
+  background-image: linear-gradient(
+      0deg,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url("../images/background-image.jpg");
 }
 
 .icons-box {
@@ -923,7 +933,8 @@ a:hover {
 
 .team figure {
   background: #fff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275), 0px 1px 1px rgba(0, 0, 0, 0.1411764706), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1215686275),
+    0px 1px 1px rgba(0, 0, 0, 0.1411764706), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   display: flex;
   flex-direction: column;
@@ -1032,7 +1043,9 @@ footer > div {
 .section-portfolio__buttons:focus {
   color: #fff;
   background-color: #2196f3;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1019607843), 0px 1px 2px rgba(0, 0, 0, 0.0784313725), 0px 2px 2px rgba(0, 0, 0, 0.1215686275);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1019607843),
+    0px 1px 2px rgba(0, 0, 0, 0.0784313725),
+    0px 2px 2px rgba(0, 0, 0, 0.1215686275);
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1162,4 +1175,4 @@ footer > div {
   text-align: center;
   gap: 30px;
   padding-bottom: 94px;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
