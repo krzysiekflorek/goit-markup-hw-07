@@ -1,6 +1,8 @@
 @import "./base/common";
 @import "./base/container";
+
 @import "./utils/variables";
+
 @import "./components/modal-btn";
 @import "./components/close-btn-modal";
 @import "./components/logo";
@@ -12,6 +14,7 @@
 @import "./components/newsletter-input";
 @import "./components/backdrop";
 @import "./components/modal";
+
 @import "./layout/header";
 @import "./layout/section-flex";
 @import "./layout/icon-box";
@@ -21,5 +24,6 @@
 @import "./layout/customers";
 @import "./layout/footer";
 @import "./layout/newsletter";
+
 @import "./pages/portfolio_btn";
 @import "./pages/portfolio";
