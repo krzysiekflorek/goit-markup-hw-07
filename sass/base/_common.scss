@@ -18,12 +18,7 @@ a:hover {
 .block {
   display: block;
 }
-.blue-text {
-  color: #2196f3;
-}
-.footer__blue-text {
-  color: #2196f3;
-}
+
 .footer__blue-text:hover,
 .footer__blue-text:focus {
   color: #2196f3;
@@ -35,12 +30,16 @@ a:hover {
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
-.black-text {
-  color: #000000;
-}
+
 .text {
   color: #212121;
+  &--blue {
+    color: #2196f3;
+    &--black 
+      color: color: #000000;
+    }
 }
+
 .no-margin-bottom {
   margin-bottom: 0%;
 }
