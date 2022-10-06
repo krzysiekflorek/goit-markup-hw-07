@@ -22,16 +22,8 @@ a:hover {
   display: block;
 }
 
-.blue-text {
-  color: #2196f3;
-}
-
-.footer__blue-text {
-  color: #2196f3;
-}
-
-.footer__blue-text:hover,
-.footer__blue-text:focus {
+.footer__text--blue:hover,
+.footer__text--blue:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -43,12 +35,14 @@ a:hover {
   border-bottom: 1px solid #eeeeee;
 }
 
-.black-text {
-  color: #000000;
-}
-
 .text {
   color: #212121;
+}
+.text--blue {
+  color: #2196f3;
+}
+.text--black {
+  color: #000000;
 }
 
 .no-margin-bottom {
@@ -67,8 +61,8 @@ a:hover {
   margin: 0 auto;
 }
 
-.blue-text:hover,
-.blue-text:focus {
+.text--blue:hover,
+.text--blue:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -206,19 +200,14 @@ a:hover {
   list-style: none;
 }
 
-.logo__blue-text {
-  color: #2196f3;
-}
-
-.logo__blue-text:hover,
-.logo__blue-text:focus {
+/*.logo__text--blue:hover,
+.logo__text--black:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.logo__black-text {
-  color: #000000;
+}*/
+.header-logo > span {
+  color: #2196f3;
 }
 
 .footer-logo {
@@ -474,12 +463,8 @@ a:hover {
   margin-bottom: 20px;
 }
 
-.footer__blue-text {
-  color: #2196f3;
-}
-
-.footer__blue-text:hover,
-.footer__blue-text:focus {
+.text--blue:hover,
+.text--blue:hover:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -499,15 +484,15 @@ a:hover {
   margin-bottom: 20px;
 }
 
+.border-header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header {
   flex-direction: row;
   display: flex;
   align-items: center;
   padding: 25px 15px;
-}
-
-.border-header {
-  border-bottom: 1px solid #ececec;
 }
 
 .section__title {
@@ -647,11 +632,7 @@ a:hover {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-hidden .modal {
-  transform: scale(0);
-}
-
-.form-modal {
+.modal-form {
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
@@ -659,6 +640,10 @@ a:hover {
   letter-spacing: 0.03em;
   color: #212121;
   margin-top: 40px;
+}
+
+.is-hidden .modal {
+  transform: scale(0);
 }
 
 .label-modal {
@@ -1084,7 +1069,6 @@ footer > div {
   gap: 8px;
   justify-content: center;
   margin: 0;
-  cursor: pointer;
 }
 
 .section-portfolio__buttons {
@@ -1104,7 +1088,6 @@ footer > div {
   align-items: flex-start;
   list-style: none;
   gap: 8px;
-  cursor: pointer;
 }
 
 .section-portfolio__buttons:hover,
