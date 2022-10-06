@@ -8,19 +8,21 @@
   border-radius: 4px;
   margin: auto;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .modal__form {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-top: 40px;
+  }
 }
+
 .is-hidden .modal {
   transform: scale(0);
 }
-.modal__form {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 23px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  margin-top: 40px;
-}
+
 .label-modal {
   display: block;
   position: relative;
