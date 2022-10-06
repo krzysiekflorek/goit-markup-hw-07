@@ -8,13 +8,16 @@ body {
   width: 1600px;
   margin: 0 auto;
 }
+
 * {
   margin: 0;
   padding: 0;
 }
+
 a:hover {
   color: #2196f3;
 }
+
 .block {
   display: block;
 }
@@ -25,6 +28,7 @@ a:hover {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .project-border {
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
@@ -36,9 +40,9 @@ a:hover {
   &--blue {
     color: #2196f3;
   }
-    &--black { 
-      color: color: #000000;
-    }
+  &--black {
+    color: #000000;
+  }
 }
 
 .no-margin-bottom {
