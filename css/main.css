@@ -200,12 +200,10 @@ a:hover {
   list-style: none;
 }
 
-/*.logo__text--blue:hover,
-.logo__text--black:focus {
-  color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}*/
+.logo {
+  color: #000;
+}
+
 .header-logo > span {
   color: #2196f3;
 }
@@ -632,7 +630,7 @@ a:hover {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form {
+.form-modal {
   font-weight: 700;
   font-size: 20px;
   line-height: 23px;
