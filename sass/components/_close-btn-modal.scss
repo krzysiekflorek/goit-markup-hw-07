@@ -12,10 +12,10 @@
   justify-content: center;
   top: 8px;
   right: 8px;
-}
 
-.close-btn:hover,
-.close-btn:focus {
-  transform: scale(1.25);
-  background-color: #f5f4fa;
+  &:hover,
+  &:focus {
+    transform: scale(1.25);
+    background-color: #f5f4fa;
+  }
 }

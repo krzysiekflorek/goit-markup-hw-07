@@ -192,9 +192,7 @@ a:hover {
   top: 8px;
   right: 8px;
 }
-
-.close-btn:hover,
-.close-btn:focus {
+.close-btn:hover, .close-btn:focus {
   transform: scale(1.25);
   background-color: #f5f4fa;
 }
