@@ -4,6 +4,25 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.contact__link-header:hover .contact__link--icons,
+.contact__link-header:focus .contact__link--icon {
+  fill: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact__link--links {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.contact__link-active,
+.contact__links:hover,
+.contact__links:focus {
+  color: #2196f3;
+}
+
 .customers a:hover,
 .customers a:focus {
   border-color: #2196f3;
@@ -11,12 +30,14 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .customers a:hover .customers__icon,
 .customers a:focus .customers__icon {
   fill: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .portfolio__element:hover .portfolio__hidden-background,
 .portfolio__element:focus .portfolio__hidden-background {
   transform: translateY(0px);
@@ -29,15 +50,18 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .portfolio__projects:hover .portfolio-label {
   transform: translateY(0);
 }
+
 .portfolio__element:hover,
 .portfolio__element:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
 }
+
 .portfolio__projects {
   padding: 0;
   margin: 0;

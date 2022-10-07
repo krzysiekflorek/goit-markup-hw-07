@@ -1,23 +1,8 @@
-.contact__link-header:hover .contact__link--icons,
-.contact__link-header:focus .contact__link--icon {
-  fill: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.contact__link--links {
-  text-decoration: none;
-  font-size: 14px;
-}
-.contact__link-active,
-.contact__links:hover,
-.contact__links:focus {
-  color: #2196f3;
-}
-
 .footer__address {
   display: block;
   font-style: normal;
 }
+
 .footer__address > span {
   display: block;
   font-style: normal;
@@ -28,6 +13,7 @@
   text-decoration: none;
   margin-bottom: 9px;
 }
+
 .footer__address-mail {
   display: block;
   text-decoration: none;
@@ -38,6 +24,7 @@
   text-decoration-line: underline;
   margin-bottom: 9px;
 }
+
 .footer__address-tel {
   display: block;
   text-decoration: none;
@@ -46,28 +33,33 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+
 .footer__text--blue:hover,
 .footer__text--blue:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .footer__address-mail:hover,
 .footer__address-mail:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .footer__address-tel:hover,
 .footer__address-tel:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .footer__address {
   display: block;
   font-style: normal;
 }
+
 .footer__address > span {
   display: block;
   font-style: normal;
@@ -78,6 +70,7 @@
   text-decoration: none;
   margin-bottom: 9px;
 }
+
 .footer__address-mail {
   display: block;
   text-decoration: none;
