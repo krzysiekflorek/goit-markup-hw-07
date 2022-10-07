@@ -14,7 +14,16 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
   padding: 17.71px 32px 14.25px;
+
+  &:hover,
+  &:focus {
+    border-color: #2196f3;
+    cursor: pointer;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
+
 .customers li:not(:last-child) {
   margin-right: 30px;
 }
