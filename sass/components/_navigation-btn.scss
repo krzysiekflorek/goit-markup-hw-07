@@ -3,7 +3,21 @@
   text-decoration: none;
   list-style: none;
   color: #000000;
+  &:hover,
+  &:focus {
+    color: #2196f3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
+
+.navigation__button:hover,
+.navigation__button:focus {
+  color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .navigation__current-button {
   display: flex;
   text-decoration: none;
@@ -17,12 +31,6 @@
   color: #2196f3;
 }
 
-.navigation__button:hover,
-.navigation__button:focus {
-  color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 .navigation__current-link {
   position: relative;
 }
