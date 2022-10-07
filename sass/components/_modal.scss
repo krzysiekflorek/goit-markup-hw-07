@@ -52,7 +52,13 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border;
   background-color: transparent;
+
+  &:hover,
+  &:focus {
+    border: 1px solid #2196f3;
+  }
 }
+
 .input-modal::placeholder {
   font-weight: 400;
   font-size: 12px;
@@ -60,10 +66,7 @@
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.05);
 }
-.input-modal:hover,
-.input-modal:focus {
-  border: 1px solid #2196f3;
-}
+
 .input-modal:focus + .icon-modal,
 .input-modal:hover + .icon-modal {
   fill: #2196f3;
