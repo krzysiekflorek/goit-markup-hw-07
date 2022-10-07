@@ -206,10 +206,12 @@ a:hover {
   text-decoration: none;
   list-style: none;
 }
-.logo--blue-text {
+
+.logo__blue-text {
   color: #2196f3;
 }
-.logo--black-text {
+
+.logo__black-text {
   color: #000000;
 }
 
