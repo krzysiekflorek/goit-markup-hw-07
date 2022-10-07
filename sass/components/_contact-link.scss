@@ -23,6 +23,13 @@
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   margin-bottom: 9px;
+
+  :hover,
+  :focus {
+    color: #2196f3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .footer__address-tel {
@@ -32,24 +39,17 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+  :hover,
+  :focus {
+    color: #2196f3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .footer__text--blue:hover,
 .footer__text--blue:focus {
-  color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer__address-mail:hover,
-.footer__address-mail:focus {
-  color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer__address-tel:hover,
-.footer__address-tel:focus {
   color: #2196f3;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
