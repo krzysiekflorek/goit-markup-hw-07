@@ -14,10 +14,11 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-property: border;
-}
-.newsletter__input:hover,
-.newsletter__input:focus {
-  border: 1px solid #2196f3;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  border-radius: 4px;
+
+  &:hover,
+  &:focus {
+    border: 1px solid #2196f3;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+  }
 }
