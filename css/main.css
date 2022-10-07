@@ -343,13 +343,6 @@ a:hover {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__text--blue:hover,
-.footer__text--blue:focus {
-  color: #2196f3;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .footer__address {
   display: block;
   font-style: normal;
@@ -364,6 +357,13 @@ a:hover {
   letter-spacing: 0.03em;
   text-decoration: none;
   margin-bottom: 9px;
+}
+
+.footer__text--blue:hover,
+.footer__text--blue:focus {
+  color: #2196f3;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team__social-links {
