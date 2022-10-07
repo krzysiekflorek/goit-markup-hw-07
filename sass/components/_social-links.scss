@@ -56,10 +56,11 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
+
   &:hover,
   &:focus {
-  background-color: #2196f3;
+    background-color: #2196f3;
+  }
 }
 
 .footer-flex__social {
