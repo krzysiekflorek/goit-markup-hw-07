@@ -1010,6 +1010,13 @@ footer > div {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+.portfolio__projects__projects-describe {
+  border: #eeeeee;
+  flex-basis: calc((100% - 60px) / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
 
 .portfolio__project-name {
   color: #212121;
@@ -1068,14 +1075,6 @@ footer > div {
   font-size: 18px;
   line-height: 1.56;
   color: #fff;
-}
-
-.portfolio__projects-describe {
-  border: #eeeeee;
-  flex-basis: calc((100% - 60px) / 3);
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
 }
 
 .portfolio__project-border {
