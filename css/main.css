@@ -185,11 +185,9 @@ a:hover {
   text-decoration: none;
   list-style: none;
 }
-
 .logo__blue-text {
   color: #2196f3;
 }
-
 .logo__black-text {
   color: #000000;
 }
@@ -205,7 +203,6 @@ a:hover {
   margin-bottom: 20px;
   letter-spacing: 0.03em;
 }
-
 .footer-logo > span {
   color: #2196f3;
 }
