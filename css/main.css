@@ -508,7 +508,6 @@ a:hover {
   margin: auto;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .modal-form {
   font-weight: 700;
   font-size: 20px;
@@ -518,7 +517,6 @@ a:hover {
   color: #212121;
   margin-top: 40px;
 }
-
 .modal-label {
   display: block;
   position: relative;
@@ -530,7 +528,6 @@ a:hover {
   margin-left: 40px;
   fill: #2196f3;
 }
-
 .modal-input {
   display: block;
   height: 40px;
@@ -552,7 +549,6 @@ a:hover {
 .modal-input:hover, .modal-input:focus {
   border: 1px solid #2196f3;
 }
-
 .modal-input::placeholder {
   font-weight: 400;
   font-size: 12px;
@@ -560,12 +556,6 @@ a:hover {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.05);
 }
-
-.modal-input:focus + .modal-icon,
-.modal-input:hover + .modal-icon {
-  fill: #2196f3;
-}
-
 .modal-icon {
   position: absolute;
   fill: #212121;
@@ -583,7 +573,6 @@ a:hover {
 .modal-icon:hover, .modal-icon:focus {
   fill: #2196f3;
 }
-
 .modal-textarea {
   width: 448px;
   height: 120px;
