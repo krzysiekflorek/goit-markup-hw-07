@@ -357,20 +357,6 @@ a:hover {
   background-color: #2196f3;
 }
 
-.footer-flex {
-  margin-top: 12px;
-}
-.footer-flex__social {
-  display: block;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-bottom: 20px;
-}
-
 .footer__title {
   display: block;
   font-weight: 700;
@@ -907,7 +893,6 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
 footer > div {
   display: flex;
   justify-content: flex-start;
@@ -917,7 +902,16 @@ footer > div {
 .footer-flex {
   margin-top: 12px;
 }
-
+.footer-flex__social {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
 .footer-flex > span {
   display: block;
   font-weight: 700;
